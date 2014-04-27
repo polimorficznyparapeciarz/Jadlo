@@ -1,6 +1,18 @@
 <% provide(:title , 'about')%>
 
     <h1>about</h1>
+    
+ 
     <p>
+    	Podaj słowo
+    	<% 
+    	
+    	 def shufflee(s)
+     	 s.split("").shuffle.join
+   		 end
+    
+    	%>
+    	<%= shufflee("abababba")+" dip" %>
+    	
     </p>
  
